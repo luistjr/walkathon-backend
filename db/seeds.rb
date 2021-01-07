@@ -16,7 +16,6 @@ User.destroy_all
         breed: Faker::Creature::Dog.breed,
         comment: Faker::Quotes::Shakespeare.as_you_like_it_quote,
         img_url: Faker::LoremFlickr.image(size: "50x50", search_terms: ['dogs']),
-        user: user
         
     )
     
