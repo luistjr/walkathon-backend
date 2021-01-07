@@ -37,5 +37,6 @@ class Api::V1::DogsController < ApplicationController
 
     def dog_params
         params.permit(:name, :breed, :comment, :img_url, :user_id)
+    end
     
 end
