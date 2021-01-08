@@ -23,7 +23,7 @@ Dog.destroy_all
 
         appointment = Appointment.create!(
             dog: dog,
-            date: "1/8/21",
+            date: "Monday",
             time: "11:00 am"
         )
     
